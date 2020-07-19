@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#132647">
+
+
+    <TextView
+        android:id="@+id/name12"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="110dp"
+        android:text="الاسم"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tall"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="65dp"
+        android:text="طول"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="تاريخ الميلاد"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/player_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="210dp"
+        app:srcCompat="@drawable/kuwaitflage" />
+
+</RelativeLayout>
